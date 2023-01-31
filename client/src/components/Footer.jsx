@@ -5,7 +5,8 @@ import {AiOutlineInstagram, AiOutlineMail, AiOutlineTwitter} from 'react-icons/a
 const Footer = () => {
   return (
     <div>
-        <ul className='flex justify-center items-center w-full my-4 text-2xl'>
+        <h1 className='flex justify-center pt-5 text-red-300'>Let's Make Magic</h1>
+        <ul className='flex justify-center items-center w-full my-4 text-2xl hover:text-gray-400'>
             <li className='hover:text-red-300 hover:text-3xl duration-200'>
                 <a href='/'>
                     <AiOutlineInstagram />

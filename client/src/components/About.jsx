@@ -2,10 +2,10 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div name='about' className='flex justify-center text-center items-center w-full'>
+    <div name='about' className='flex justify-center text-center items-center w-full bg-gray-800'>
         <div className='mx-10'>
             <h1 className='text-4xl text-red-300 mt-24 underline'>
-                About
+                About Me
                 </h1>
 
             <p className='py-4'>With years of experience, I am a master of my craft, blending creativity and technical expertise to create stunning works of art. My portfolio speaks for itself, showcasing my versatility and ability to capture the essence of a moment.</p>
