@@ -5,7 +5,12 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'fleur-de': ['"Fleur De Leah"', 'cursive'],
+        'source-pro': ['"Source Code Pro"', 'monospace'],
+      },
+    },
   },
   plugins: [],
 }

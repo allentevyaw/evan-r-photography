@@ -2,8 +2,8 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div className='w-full min-h-screen mx-10 flex justify-center'>
-        Projects
+    <div name='projects' className='w-full min-h-screen flex justify-center'>
+        <h1 className='text-red-300 text-4xl mt-24 underline'>Projects</h1>
     </div>
   )
 }

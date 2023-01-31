@@ -20,19 +20,21 @@ useEffect(() => {
     <div className={shadow ? 'fixed flex shadow-md justify-between items-center w-full h-[80px] px-5 z-[100] font-bold bg-[#0f161a]'
 : 'fixed flex justify-between items-center w-full h-[80px] px-5 z-[100] font-bold bg-[#0f161a]'}>
         <button className='hover:text-red-300'>
-            Evan Rios
+            <Link to="home" smooth={true} duration={500}>
+                Evan Rios
+            </Link>
         </button>
 
         <div>
             <ul className='flex justify-between'>
-                <Link>
-                    <li className='px-4 cursor-pointer hover:text-red-300'>About</li>
+                <Link to='about' smooth={true} duration={500}>
+                    <li className='px-4 cursor-pointer hover:text-red-300 link link-underline'>About</li>
                 </Link>
-                <Link>
-                    <li className='px-4 cursor-pointer hover:text-red-300'>Projects</li>
+                <Link to='projects' smooth={true} duration={500}>
+                    <li className='px-4 cursor-pointer hover:text-red-300 link link-underline'>Projects</li>
                 </Link>
-                <Link>
-                    <li className='px-4 cursor-pointer hover:text-red-300'>Contact</li>
+                <Link to='contact' smooth={true} duration={500}>
+                    <li className='px-4 cursor-pointer hover:text-red-300 link link-underline'>Contact</li>
                 </Link>
             </ul>
         </div>
