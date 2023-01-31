@@ -14,6 +14,8 @@ const Contact = () => {
                 </div>
 
                 <form className='flex flex-col max-w-[600px] w-full'>
+
+                    <label className='mx-2 text-red-300'>Name*</label>
                     <input 
                     type='text'
                     placeholder='First Name'
@@ -28,13 +30,15 @@ const Contact = () => {
                     className='rounded-md m-2 p-1 text-gray-600 bg-[#EDEAEA]'>
                     </input>
 
-                  <input 
+                    <label className='mx-2 pt-2 text-red-300'>Email*</label>
+                    <input 
                     type='email'
                     placeholder='Email'
                     name='email'
                     className='rounded-md m-2 p-1 text-gray-600 bg-[#EDEAEA]'>
                     </input>
 
+                    <label className='mx-2 pt-2 text-red-300'>Message*</label>
                     <textarea 
                         className='bg-[#EDEAEA] m-2 p-2 rounded-md text-gray-600' 
                         name='message' 
