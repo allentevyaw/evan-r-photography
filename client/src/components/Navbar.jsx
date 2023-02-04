@@ -33,7 +33,7 @@ const onClick = () => {
 : 'fixed flex justify-between items-center w-full h-[80px] px-5 z-[100] font-bold bg-[#027E72]'}>
         <button className='hover:text-amber-200'>
             <Link to="home" smooth={true} duration={500}>
-                Evan Rios
+                Evan R.
             </Link>
         </button>
 <div>
