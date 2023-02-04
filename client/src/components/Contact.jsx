@@ -4,18 +4,21 @@ const Contact = () => {
   return (
     <div name='contact' className='w-full min-h-screen flex justify-center items-center px-10 bg-gray-800'>
         <div>
-            <h1 className='py-4 text-red-300 text-4xl underline'>Contact</h1>
+            <h1 className='py-4 text-amber-200 text-4xl underline'>Contact</h1>
             <p>Thank you for visiting my website. I invite you to explore my portfolio and see for yourself the magic I can create. Let's work together to capture your special moments and make them into timeless memories.</p>
 
             <div className='pt-10 flex justify-between'>
 
-                <div>
-                    
+                <div className='flex items-center justify-center pb-10'>
+                    <img 
+                    src='' 
+                    alt='selfie'
+                    className='' />
                 </div>
 
                 <form className='flex flex-col max-w-[600px] w-full'>
 
-                    <label className='mx-2 text-red-300'>Name*</label>
+                    <label className='mx-2 text-amber-200'>Name*</label>
                     <input 
                     type='text'
                     placeholder='First Name'
@@ -30,7 +33,7 @@ const Contact = () => {
                     className='rounded-md m-2 p-1 text-gray-600 bg-[#EDEAEA]'>
                     </input>
 
-                    <label className='mx-2 pt-2 text-red-300'>Email*</label>
+                    <label className='mx-2 pt-2 text-amber-200'>Email*</label>
                     <input 
                     type='email'
                     placeholder='Email'
@@ -38,7 +41,7 @@ const Contact = () => {
                     className='rounded-md m-2 p-1 text-gray-600 bg-[#EDEAEA]'>
                     </input>
 
-                    <label className='mx-2 pt-2 text-red-300'>Message*</label>
+                    <label className='mx-2 pt-2 text-amber-200'>Message*</label>
                     <textarea 
                         className='bg-[#EDEAEA] m-2 p-2 rounded-md text-gray-600' 
                         name='message' 
