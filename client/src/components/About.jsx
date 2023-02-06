@@ -7,7 +7,7 @@ const About = () => {
     <div name='about' className='flex justify-center items-centerw-full min-h-screen bg-white'>
 
 
-<div className="container mx-auto text-center lg:text-left pt-7 pb-7">
+<div className="container mx-auto text-center lg:text-left pt-11 pb-7">
       <div className="grid lg:grid-cols-2 gap-2 items-center">
         <div className="mb-12 lg:mb-0 px-4">
           <div className="block rounded-lg shadow-lg px-6 py-12 md:px-12 lg:-mr-16"

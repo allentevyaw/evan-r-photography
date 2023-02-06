@@ -4,10 +4,10 @@ import {FaMapMarkerAlt} from 'react-icons/fa'
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full min-h-screen flex justify-center items-center px-10 bg-white'>
+    <div name='contact' className='w-full min-h-screen flex justify-center items-center px-10 bg-white py-20'>
         <div>
-            <div className='pb-4'>
-                <h1 className='py-4 text-black text-4xl underline'>Contact</h1>
+            <div className='pb-8'>
+                <h1 className='py-4 text-black text-4xl '>Contact</h1>
                 <p className='text-black'>Thank you for visiting my website. I invite you to explore my portfolio 
                     and see for yourself the magic I can create. Let's work together to 
                     capture your special moments and make them into timeless memories.</p>
@@ -46,6 +46,7 @@ const Contact = () => {
         <div className="max-w-[700px] mx-auto">
           <form>
             <div className="form-group mb-6">
+                <label className='pl-2'>Name*</label>
               <input type="text" className="block
               w-full
               px-3
@@ -63,6 +64,7 @@ const Contact = () => {
                 placeholder="Name"/>
             </div>
             <div className="form-group mb-6">
+            <label className='pl-2'>Email*</label>
               <input type="email" className="form-control block
               w-full
               px-3
@@ -80,6 +82,8 @@ const Contact = () => {
                 placeholder="Email address"/>
             </div>
             <div className="mb-6">
+            <label className='pl-2'>Message*</label>
+
               <textarea className="
               form-control
               block

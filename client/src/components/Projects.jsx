@@ -3,7 +3,7 @@ import Shoreline from '../assets/shoreline.png'
 
 const Projects = () => {
   return (
-    <div name='projects' className='w-full min-h-screen bg-[#027E72] py-10'>
+    <div name='projects' className='w-full min-h-screen bg-[#027E72] py-5'>
         <h1 className='text-amber-200 text-4xl mt-24 underline flex justify-center pb-10'>Projects</h1>
 
 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
