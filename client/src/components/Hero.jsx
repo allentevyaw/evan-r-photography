@@ -20,7 +20,7 @@ const Hero = () => {
         className="block rounded-lg shadow-lg px-6 py-12 md:py-16 md:px-12"
         style={{background: "hsla(0, 0%, 100%, 0.3)", backdropfilter: "blur(30px)"}}>
         <h1 className='py-4 font-fleur-de text-5xl font-thin text-amber-200'>Evan D. Rios</h1>
-            <h1 className='sm:text-6xl text-3xl font-source-pro'>PHOTOGRAPHER
+            <h1 className='sm:text-6xl text-3xl '>PHOTOGRAPHER
             <span className='text-amber-200'>.</span> VIDEOGRAPHER<span className='text-amber-200'>.</span></h1>
             <p className='py-4 text-amber-200'>
             Welcome to my photography and videography world! I am Evan Rios, an experienced artist with a passion for capturing life's precious moments. From weddings, headshots to erotic photos, I have a keen eye for detail and a unique style that sets me apart.
