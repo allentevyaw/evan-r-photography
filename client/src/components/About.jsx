@@ -35,7 +35,7 @@ const About = () => {
             </div>
 
             <p className="text-gray-500 mb-0">
-            <p className='py-4'>As a <span className='text-[#027E72] underline'>wedding photographer</span>, I understand the importance 
+            As a <span className='text-[#027E72] underline'>wedding photographer</span>, I understand the importance 
             of preserving memories and emotions of a couple's special day. I am dedicated 
             to capturing every candid moment, and creating posed portraits that are timeless. 
             For <span className='text-[#027E72] underline'> headshots</span>, I bring out the best in my clients, whether they are actors, models or 
@@ -47,7 +47,6 @@ const About = () => {
             <span className='text-[#027E72] underline'> videographer and drone photographer.</span> I bring the same level of creativity and technical 
             expertise to my videography and drone work, ensuring that every project is captured in 
             stunning detail.</p>
-            </p>
           </div>
         </div>
 
